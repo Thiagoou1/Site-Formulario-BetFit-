@@ -1,0 +1,216 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+   
+}
+body{
+    background-color:#fc373be7;
+}
+
+div.cabecalho{
+    padding: 30px;
+    margin: 0px -50px;
+    background-color: rgb(223, 223, 223);
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.212);
+}
+.cabecalho > h1{
+    font-family: 'Black Ops One', cursive;
+    font-weight: lighter;
+   
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    
+}
+.cabecalho > h2{
+    font-size: 27px;
+     font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+    line-height: 30px;
+}
+ol{
+    list-style-type:none;
+    margin-left: 20px;
+}
+
+div.principal{
+    
+    max-width: 800px;
+    background-color: white;
+    
+
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 80px;
+    margin: auto;
+    height: 100%;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.466);
+}
+img{
+    display: block;
+    width: 30%;
+    height: 30%;
+    margin: auto;
+}
+fieldset{
+    margin-bottom: 10px;
+    border: solid black 1px;
+    padding: 5px;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.26);
+}
+div.nome label{
+    margin: 5px;
+}
+div.nome input {
+    width: 95%;
+    display: block;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+div.origem{
+    padding: 5px;
+}
+div.origem > label {
+    display: inline-flex;
+    margin-right: 25%;
+    width: 133px;
+
+}
+div.origem > input{
+    display: inline-flex;
+    width: 30%;
+    margin-right: 12%;
+    border: 1px solid black;
+    padding: 5px;
+    
+}
+div.genero label{
+    margin: 5px;
+}
+
+div.saude{
+    margin: 5px;
+
+}
+
+div.saude input{
+    border: 1px solid black;
+    padding: 5px;
+    
+}
+
+div.endereco{
+    padding: 5px;
+}
+
+div.endereco > label{
+    display: block;
+}
+
+div.endereco > input{
+    display: block;
+    width: 96.2%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+div.medidas{
+    padding: 5px;
+}
+
+div.medidas > label{
+    display: inline-flex;
+    margin-right: 25%;
+    width: 133px;
+
+}
+div.medidas > input,div.genero >input{
+    display: inline-flex;
+    width: 30%;
+    margin-right: 12%;
+    border: 1px solid black;
+    padding: 5px;
+
+   
+}
+div.contato{
+    padding: 5px;
+}
+
+div.contato > label{
+    display: inline-flex;
+    width: 133px;
+
+    margin-right: 25%;
+}
+
+div.contato > input{
+    display: inline-flex;
+    width: 30%;
+    margin-right: 12%;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+fieldset.planos >select{
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.botao{
+    padding: 5px;
+    background-color: rgb(223, 223, 223);
+
+    color: rgb(0, 0, 0);
+    border: none;
+    margin-bottom: 10px;
+}
+#botao_1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 2px;
+    
+    background-color: #fc373be7;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+  }
+  #botao_2 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 2px;
+    
+    background-color: #fc373be7;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 20px;
+  }
+  #botao_1:hover, #botao_2:hover {
+    background-color: #fff;
+    color: #ff0000;
+  }
+#tipo_sanguineo{
+    width: 40px;
+}

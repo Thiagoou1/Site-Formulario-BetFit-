@@ -1,0 +1,267 @@
+@media only screen and (max-width: 600px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Lato', sans-serif;
+    }
+    body{
+        
+        background-color: rgb(241, 241, 241);
+        overflow-x: hidden;
+    }
+    h1,h2,h3,h4{
+        font-family: 'Black Ops One', cursive;
+        font-weight: lighter;
+    }
+   h1 >img{
+        display: inline;
+        width: 80px;
+        height: 80px;
+    }
+    .titulo{
+        color: white;
+        text-align: left;
+        background-color: rgb(233, 54, 54);
+    
+    }
+
+    #burguer{ 
+        background-color: rgb(233, 54, 54);
+        display: block;
+        color: rgb(245, 210, 210);
+        text-align: right;
+        
+    }
+    #burguer:hover{
+        cursor: pointer;
+        background-color:rgb(245, 210, 210);
+        color: rgb(233, 54, 54);
+    }
+    #itens{
+        display: none;
+    }
+    li{
+        background-color:  rgb(247, 79, 79);
+        text-align: center;
+        padding: 10px;
+        margin: 1px;
+    }
+    li >a{
+        color: white;
+        text-decoration: none;
+        font-weight: lighter;
+    }
+    li:hover{
+        background-color:rgb(233, 54, 54);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .imagem_fundo{
+        width:100vw;
+        height: 500px;
+        background: white  url(/betfit/imagens_2/musculacao-holdfit.jpg) center center no-repeat fixed;
+        background-size: cover;
+        opacity: 70%;
+        position: relative;
+        
+    }
+    .texto{
+        color: white;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%
+        );
+    }
+    .texto > h2{
+        font-size: 50px;
+        margin: 20px;
+    }
+    .texto > p{
+        font-size: 20px;
+        width: 500px;
+        font-weight: bolder;
+        
+    }
+    article.sobre_nos{
+       margin-top: 50px ;
+       text-align: center;
+       background-color: rgb(225, 225, 225);
+    }
+    img.sobre_nos{
+        max-width: 30%;
+        height: 30%;
+        
+    }
+    h3.sobre_nos{
+        font-size: 40px;
+    }
+    div.detalhe{
+        font-size: 40px;
+        margin-bottom: 15px;
+        color: red;
+        text-align: center;
+    }
+    p.sobre_nos{
+        font-size: 23px;
+        padding: 0px 10px;
+    }
+    article.atividades{
+        margin-top: 50px;
+        text-align: center;
+        
+    }
+    h3.atividades{
+        font-size: 40px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    #cross{
+        position: relative;
+        display: block;
+        margin: 5% 5% 10% 5%;
+        width: 90%;
+        height: 150px;
+        background-color: aqua;
+        background: white  url(/betfit/imagens_2/crossfi_ver2.jpg) top center no-repeat local;
+        background-size: cover;
+        opacity: 80%;
+    }
+    #cross > h2{
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%
+        );
+    }
+    #lutas{
+        position: relative;
+        display: block;
+        margin: 5% 5% 10% 5%;
+        width: 90%;
+        height: 150px;
+        background: white  url(/betfit/imagens_2/luta_ver2.jpg) center center no-repeat local;
+        opacity: 80%;
+
+    }
+    #lutas > h2{
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%
+        );
+    }
+    #musculacao{
+        position: relative;
+        display: block;
+        margin: 5% 5% 10% 5%;
+        width: 90%;
+        height: 150px;
+        background: white  url(/betfit/imagens_2/musculacao_ver2.jpg) center center no-repeat local;
+        opacity: 80%;
+    }
+    #musculacao > h2{
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%
+        );
+    }
+    article.estrutura{
+        text-align: center;
+        background-color: rgb(225, 225, 225);
+    }
+    h3.estrutura{
+        font-size: 40px;
+    }
+    p.estrutura{
+        font-size: 23px;
+        padding: 0px 10px;
+    }
+    img.estrutura{
+        margin: 50px;
+        width: 250px;
+        box-shadow: 20px 1px 0px 7px rgb(233, 54, 54)
+    }
+
+    article.especial{
+        margin-top: 50px;
+        text-align: center;
+    }
+    h3.especial{
+        font-size: 40px
+    }
+    img.especial{
+        width: 250px;
+    }
+    p.especial{
+        font-size: 23px;
+        padding: 0px 10px;
+    }
+    article.localizacao{
+        margin-top: 50px;
+        text-align: center;
+        background-color: rgb(225, 225, 225);
+    }
+    h3.localizacao{
+        font-size: 40px
+    }
+    h4.localizacao{
+        font-size: 30px;
+    }
+    iframe.localizacao{
+        width: 250px;
+        height: 300px;      
+    }
+    div#localizacao{
+        border: 5px dashed rgb(233, 54, 54);
+        display: inline-block;
+        margin: 30px;
+    }
+    .imagem_fundo_2{
+        width:100vw;
+        height: 250px;
+        background: white  url(/betfit/imagens_2/musculacao-holdfit.jpg) center center no-repeat local;
+        background-size: cover;
+        opacity: 70%;
+        position: relative;
+        margin-bottom: 1px;
+        
+    }
+    #titulo_2{
+        font-size: 50px;
+        margin: 10px;
+    }
+    #botao {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: lighter;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 2px;
+        
+        background-color: #ff0000;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      
+      #botao:hover {
+        background-color: #fff;
+        color: #ff0000;
+      }
+      footer{
+        background-color: rgb(233, 54, 54);
+        text-align: center;
+        color: white;
+      }
+    }
